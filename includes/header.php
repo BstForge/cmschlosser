@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="branding">C.M. Schlosser</div>
+    <h1 class="branding">C.M. Schlosser</h1>
     <nav class="main-nav">
       <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
       <ul class="nav-links">
