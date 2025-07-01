@@ -69,6 +69,22 @@ body {
 .featured-book {
     margin-bottom: 1.5rem;
 }
+.content-block {
+    margin: 2em 0;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+}
+
+    .content-block img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 
 a {
     color: #2b1d0e;
