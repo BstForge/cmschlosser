@@ -1,0 +1,99 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background: url('../images/parchment.png') repeat;
+  color: #2b1d0e;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: url('../images/parchment_header.png') center/cover;
+  color: #8b0000;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 2px solid #522;
+}
+
+.container {
+  display: flex;
+  padding-top: 120px;
+  margin: 0 10%;
+}
+
+.main-content {
+  flex: 3;
+  padding-right: 2rem;
+}
+
+.sidebar {
+  flex: 1;
+  background: rgba(255, 255, 240, 0.8);
+  padding: 1rem;
+  border-left: 1px solid #ccc;
+}
+
+.site-footer {
+  background: #f4e3c1;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #8b0000;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}

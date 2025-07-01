@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CMSchlosser Site</title>
-</head>
-<body>
-    <h1>It works!</h1>
-    <p>This is the homepage for <strong>cmschlosser.local</strong></p>
-</body>
-</html>
+<?php include("includes/header.php"); ?>
+<main>
+  <section class="featured-book">
+    <h2>Featured Book</h2>
+    <p>Showcase your latest novel here with a description and buy links.</p>
+  </section>
+  <section class="main-content">
+    <p>Welcome to the official site of C.M. Schlosser, author of speculative fiction and haunting tales.</p>
+  </section>
+</main>
+<?php include("includes/footer.php"); ?>
