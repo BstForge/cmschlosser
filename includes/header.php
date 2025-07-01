@@ -9,21 +9,23 @@
 </head>
 <body>
   <header class="site-header">
-      <img src="assets/images/wizard.png" alt="Wizard logo" class="header-logo" />
-    <h1 class="branding">C.M. Schlosser</h1>
-    <nav class="main-nav">
-      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Published Novels</a></li>
-        <li><a href="#">Upcoming Works</a></li>
-        <li><a href="#">Author's Corner</a></li>
-        <li><a href="#">Newsletter</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Other Projects</a></li>
-        <li><a href="#">Spotlight</a></li>
-      </ul>
-    </nav>
+          <img src="assets/images/wizard.png" alt="Wizard logo" class="header-logo" />
+    <div class="brand-nav">
+      <h1 class="branding">C.M. Schlosser</h1>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Published Novels</a></li>
+          <li><a href="#">Upcoming Works</a></li>
+          <li><a href="#">Author's Corner</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Other Projects</a></li>
+          <li><a href="#">Spotlight</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class="container">

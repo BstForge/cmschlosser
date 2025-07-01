@@ -29,7 +29,19 @@ body {
 }
 
 .main-nav {
-    margin-left: auto;
+    margin-left: 0;
+    margin-top: 0.25rem;
+}
+
+.brand-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.header-logo {
+    height: 100%;
+    max-height: 60px;
 }
 
 .header-logo {
@@ -127,13 +139,13 @@ a {
         display: block;
         padding: 0.5rem 1rem;
         text-decoration: none;
-        color: #2b1d0e;
+        color: #ffffe0;
         font-weight: bold;
         transition: background 0.3s ease, color 0.3s ease;
     }
 
         .nav-links a:hover {
-            background: rgba(0, 0, 0, 0.1);
+            background: #555;
             text-decoration: underline;
         }
 
