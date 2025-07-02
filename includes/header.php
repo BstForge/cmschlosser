@@ -14,15 +14,15 @@
       <nav class="main-nav">
         <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Published Novels</a></li>
-          <li><a href="#">Upcoming Works</a></li>
-          <li><a href="#">Author's Corner</a></li>
-          <li><a href="#">Newsletter</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Other Projects</a></li>
-          <li><a href="#">Spotlight</a></li>
+          <li><a href="index.php?page=index">Home</a></li>
+          <li><a href="index.php?page=about">About</a></li>
+          <li><a href="index.php?page=published-novels">Published Novels</a></li>
+          <li><a href="index.php?page=upcoming-works">Upcoming Works</a></li>
+          <li><a href="index.php?page=authors-corner">Author's Corner</a></li>
+          <li><a href="index.php?page=newsletter">Newsletter</a></li>
+          <li><a href="index.php?page=contact">Contact</a></li>
+          <li><a href="index.php?page=other-projects">Other Projects</a></li>
+          <li><a href="index.php?page=spotlight">Spotlight</a></li>
         </ul>
       </nav>
     </div>

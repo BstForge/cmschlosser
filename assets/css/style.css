@@ -65,23 +65,30 @@ body {
 }
 
 .content-area {
-    flex: 0 0 80%;
+    flex: 1;
     padding-right: 2rem;
     line-height: 1.6;
+    margin-right: 15%;
 }
 
 .sidebar {
-    flex: 0 0 20%;
-    background: rgba(255, 255, 240, 0.8);
+    position: fixed;
+    right: 10px;
+    top: 170px;
+    bottom: 50px;
+    width: 15%;
+    background: rgba(255, 255, 255, 0.85);
     padding: 1rem;
-    margin-top: 2rem;
     border-left: 1px solid #ccc;
+    border-radius: 8px;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
     .sidebar h3 {
         font-family: 'Georgia', serif;
         margin-top: 0;
+        text-align: center;
     }
 
 .featured-book {
@@ -165,10 +172,16 @@ a {
         margin: 0 1rem;
     }
 
-    .content-area,
+    .content-area {
+        margin-right: 0;
+    }
+
     .sidebar {
-        flex: 0 0 100%;
+        position: static;
+        top: auto;
+        bottom: auto;
         width: 100%;
+        margin: 1rem 0;
     }
 
     .nav-toggle {
@@ -188,4 +201,30 @@ a {
         .nav-links.active {
             display: flex;
         }
+    .site-intro {
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #2b1d0e;
+        margin: 2rem auto 1.5rem auto;
+        padding: 0 1rem;
+    }
+    .sidebar-video {
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+        .sidebar-video video {
+            display: block;
+            width: 100%;
+            max-width: 200px; /* You can adjust this to whatever fits best */
+            height: auto;
+            margin: 0 auto;
+            border-radius: 6px;
+            box-sizing: border-box;
+            border: 5px solid #000; /* Thick black border */
+        }
+
 }
