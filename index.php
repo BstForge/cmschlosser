@@ -1,11 +1,14 @@
 <?php include("includes/header.php"); ?>
 <main class="content-area">
   <section class="featured-book">
-    <h2>Featured Book</h2>
-    <p>Showcase your latest novel here with a description and buy links.</p>
+    <h2>Welcome to the Official Website of C.M. Schlosser</h2>
   </section>
   <section class="main-content">
-    <p>Welcome to the official site of C.M. Schlosser, author of speculative fiction and haunting tales.</p>
+    <p>
+Step into the world of C.M. Schlosser, author of speculative fiction and haunting tales.  
+Explore published novels, upcoming works, and insights from the Authors Corner.  
+Your next favorite story might just begin here.
+</p>
   </section>
   
   <?php
