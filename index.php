@@ -14,9 +14,8 @@
             $path = $contentDir . $file;
             $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
             if ($ext === 'txt') {
-                $text = htmlspecialchars(file_get_contents($path), ENT_QUOTES, 'UTF-8');
-                $text = nl2br($text);
-                echo "<section class=\"content-block\"><p>{$text}</p></section>";
+                $text = file_get_contents($path); // Allow HTML
+                echo "<section class=\"content-block\">{$text}</section>";
             } elseif (in_array($ext, ['jpg','jpeg','png','gif'])) {
                 $src = 'content/' . $page . '/' . rawurlencode($file);
                 $alt = htmlspecialchars(pathinfo($file, PATHINFO_FILENAME), ENT_QUOTES, 'UTF-8');
